@@ -1,0 +1,56 @@
+<!-- HTML is used to structure a web page and its content -->
+<!DOCTYPE html>
+<html>
+<!-- There are two main parts of an HTML document -->
+<!-- Head - container for our metadata (usually not displayed) -->
+<!-- Body - contents of the actual web page -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Christopher Malinao | Web Developer Portfolio</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Google fonts -->
+	<!-- https://fonts.google.com/ -->
+	<!-- Montserrat and Roboto -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap"
+		rel="stylesheet"
+	/>
+
+	<!-- Bootstrap: getbootstrap.com/ -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+
+	<!-- Paired tags: <tagname> </tagname> -->
+	<!-- Self-closing tags: <tagname /> -->
+	<!-- We will be using class and ids to name our tags/elements -->
+	<div class="container-fluid">
+
+		<!-- id is an attribute to name a tag uniquely -->
+		<section id="landing">
+			<!-- HTML headings are usually to creaty headings of a content. The bigger the number in the heading tag the smaller the size of the heading -->
+			<h1>Full Stack Web Developer</h1>
+			<p>Hi! My name is Christopher and I love building things from scratch.</p>
+
+			<!-- Adding bootstrap classes to modify contents -->
+			<!-- Including a photo in a web page using img tag -->
+			<img src = "images/myImage.jpg" class="img-fluid" id="profile"/>
+
+			<!-- Creating a mailing feature using anchor(a) tag -->
+			<a href="mailto:charles.quimpo@zuitt.co" class="btn btn-success btn-lg mt-3">Let's Work Together</a>
+
+		</section>
+
+
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
